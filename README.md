@@ -35,7 +35,7 @@
 
 | ช่องทาง | ลิงก์ |
 | :--- | :--- |
-| **เว็บไซต์ (GitHub.io)** | `[https://[username].github.io/[Repository Name]/](https://wira131.github.io/)` |
+| **เว็บไซต์ (GitHub.io)** | `[https://[wira131].github.io/[Repository Name]/]` |
 | **GitHub** | [[ลิงก์ GitHub ของคุณ](https://github.com/wira131)] |
 | **LinkedIn** | [[ลิงก์ LinkedIn ของคุณ](https://www.linkedin.com/in/%E0%B8%A7%E0%B8%B4%E0%B8%A3%E0%B8%B0-%E0%B8%A7%E0%B8%87%E0%B8%A9%E0%B9%8C%E0%B8%9E%E0%B8%A5-a24a00391/)] |
 | **อีเมล** | [66040249131@udru.ac.th] |
