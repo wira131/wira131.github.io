@@ -1,1 +1,32 @@
+/* Custom CSS for Portfolio (style.css) */
 
+/* 1. Global Reset / Smooth Scrolling */
+html {
+    /* ทำให้การคลิกเมนู scroll ไปยัง section ต่าง ๆ เป็นไปอย่างนุ่มนวล */
+    scroll-behavior: smooth; 
+}
+
+/* 2. Hamburger Menu Animation (สำหรับ Mobile Menu Button) */
+/* เมื่อเมนูถูกเปิด (Class 'hidden' ถูกลบออกโดย JavaScript) */
+#mobile-menu-button.active .hamburger-line:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+#mobile-menu-button.active .hamburger-line:nth-child(2) {
+    opacity: 0; /* ซ่อนเส้นกลาง */
+}
+#mobile-menu-button.active .hamburger-line:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+/* 3. Footer Icon Link Fix (เพื่อให้ลิงก์ใน Footer ดูสวยงามขึ้นเมื่อ Hover) */
+footer a {
+    transition: color 0.3s ease;
+}
+
+/* 4. Custom Styling สำหรับ Portfolio Filter (ถ้าจำเป็นต้อง override Tailwind) */
+/* (ในโค้ด JS มีการจัดการคลาส 'active' แล้ว) */
+.portfolio-filter.active {
+    /* ทำให้ปุ่ม active โดดเด่นขึ้น */
+    /* Tailwind classes ใน HTML ก็เพียงพอแล้ว: bg-primary-600 text-white */
+    box-shadow: 0 0 10px rgba(151, 71, 255, 0.5); 
+}
